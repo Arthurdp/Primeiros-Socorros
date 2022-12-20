@@ -1,0 +1,16 @@
+{
+    "jsonEmergencyList": [
+        {
+            "img": "http",
+            "title": "Fratura"
+        },
+        {
+            "img": "http",
+            "title": "Ansiedade"
+        },
+        {
+            "img": "http",
+            "title": "Ataque Cardíaco"
+        }
+    ]
+}
