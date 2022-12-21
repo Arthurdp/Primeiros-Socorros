@@ -2,15 +2,119 @@
     "jsonEmergencyList": [
         {
             "img": "http",
+            "title": "Alergias/Anafilaxia"
+        },
+        {
+            "img": "http",
+            "title": "ANSIEDADE"
+        },
+        {
+            "img": "http",
+            "title": "Ataque Cardíaco (Infarto)"
+        },
+        {
+            "img": "http",
+            "title": "Acidente Vascular Cerebral (AVC) - Derrame"
+        },
+        {
+            "img": "http",
+            "title": "Choque"
+        },
+        {
+            "img": "http",
+            "title": "Crise de Asma"
+        },
+        {
+            "img": "http",
+            "title": "Crise Diabética"
+        },
+        {
+            "img": "http",
+            "title": "Crise Epiléptica"
+        },
+        {
+            "img": "http",
+            "title": "Distensões e Entorses"
+        },
+        {
+            "img": "http",
+            "title": "Envenenamento / Substâncias Perigosas"
+        },
+        {
+            "img": "http",
             "title": "Fratura"
         },
         {
             "img": "http",
-            "title": "Ansiedade"
+            "title": "Hemorragia"
         },
         {
             "img": "http",
-            "title": "Ataque Cardíaco"
+            "title": "Hipotermia"
+        },
+        {
+            "img": "http",
+            "title": "Inconsciente e Respira"
+        },
+        {
+            "img": "http",
+            "title": "Inconsciente e Não Respira"
+        },
+        {
+            "img": "http",
+            "title": "Insolação"
+        },
+        {
+            "img": "http",
+            "title": "Lesões na Cabeça"
+        },
+        {
+            "img": "http",
+            "title": "Meningite"
+        },
+        {
+            "img": "http",
+            "title": "Obstrução da Via Aérea (engasgo)"
+        },
+        {
+            "img": "http",
+            "title": "Perfuração"
+        },
+        {
+            "img": "http",
+            "title": "Picadas / Mordidas"
+        },
+        {
+            "img": "http",
+            "title": "Picadas de Insetos & Mordidas"
+        },
+        {
+            "img": "http",
+            "title": "Queimaduras"
+        },
+        {
+            "img": "http",
+            "title": "Primeiros Socorros Psicológicos"
+        },
+        {
+            "img": "http",
+            "title": "Animais"
+        },
+        {
+            "img": "http",
+            "title": "Cobras Venenosas"
+        },
+        {
+            "img": "http",
+            "title": "Água viva"
+        },
+        {
+            "img": "http",
+            "title": "Escorpiões & Aranhas"
+        },
+        {
+            "img": "http",
+            "title": "Carrapatos"
         }
     ]
 }
