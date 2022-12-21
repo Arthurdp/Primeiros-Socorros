@@ -952,7 +952,7 @@
             },
             {
                 "img": "",
-                "title": "Quando a vítima for maior ou até mesmo um adulto, faça compressão na região subdiafragmática ("boca do estômago"), utilizando a posição por detrás da vítima e com as duas mãos formando um punho e com o polegar de uma delas em cunha, fazendo um movimento único com formato de "J" para dentro e para cima.",
+                "title": "Quando a vítima for maior ou até mesmo um adulto, faça compressão na região subdiafragmática ('boca do estômago'), utilizando a posição por detrás da vítima e com as duas mãos formando um punho e com o polegar de uma delas em cunha, fazendo um movimento único com formato de 'J' para dentro e para cima.",
                 "descricao": "Manobra conhecida como 'Manobra de Heimlich'."
             },
             {
@@ -1089,6 +1089,334 @@
                 "descricao": "Assegure-se de que não tem águas paradas no seu jardim/pátio, como por exemplo: em baldes, vasos ou poças com águas estagnadas."
             }
         ]
+    },
+    "Queimaduras" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Coloque a queimadura térmica debaixo de água corrente para esfriar durante pelo menos 10 minutos.",
+                "descricao": "Esfriar a queimadura reduz a dor e o inchaço. Quanto mais rápido e prolongado for o resfriamento, menor o impacto da lesão."
+            },
+            {
+                "img": "",
+                "title": "Se a queimadura necessitar de cuidados médicos, após o resfriamento, seque-a, retire as vestes que não estejam aderidas à pele e cubra a lesão e encaminhe o quanto antes ao serviço especializado.",
+                "descricao": "Este procedimento ajuda a prevenir infecções, mantendo a área limpa. É a cobertura ideal porque não se cola à queimadura e porque reduz a dor ao proteger a superfície da pele do ar."
+            },
+            {
+                "img": "",
+                "title": "Se necessário, ligue 192 ou peça a alguém que o faça.",
+                "descricao": "Ligue sempre 192 se a vítima for uma criança, se a queimadura empolar, se afetar mais do que uma zona do corpo, se cobrir as mãos, pés, face, períneo, ou se os tecidos subjacentes estiverem visíveis ou, ainda, se for uma vítima idosa ou com doenças preexistentes, tais como hipertensão, diabetes, asma, entre outras."
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "Devo colocar manteiga ou creme numa queimadura? Ouvi dizer que isso ajuda.",
+                "descricao": "Não. A manteiga não vai esfriar a parte queimada, Qualquer óleo retém calor, o que é precisamente o oposto do pretendido. Se colocar alguma coisa por cima de uma queimadura, que depois terá de ser removida no hospital, causará mais dor e dano."
+            },
+            {
+                "img": "",
+                "title": "Devo usar gelo para resfriar a queimadura?",
+                "descricao": "Não. Use água corrente e limpa. O gelo pode danificar ainda mais a pele."
+            },
+            {
+                "img": "",
+                "title": "Como sei quando se deve ir ao hospital?",
+                "descricao": "Deve ir ao hospital quando for uma criança a se queimar, quando uma queimadura empolar, quando afetar mais do que uma parte do corpo, cobrir as mãos, pés, face, períneo, ou se os tecidos subjacentes estiverem visíveis ou, ainda, se for uma vítima idosa ou com doenças preexistentes, tais como hipertensão, diabetes, asma, entre outras."
+            },
+            {
+                "img": "",
+                "title": "Devo colocar um curativo adesivo por cima da queimadura?",
+                "descricao": "Não. Os curativos adesivos se colam à pele e podem causar mais danos. Cubra a queimadura com um saco de plástico, PVC de cobrir comida ou faça um curativo com pomadas próprias para queimaduras térmicas, utilizando gaze e atadura."
+            },
+            {
+                "img": "",
+                "title": "Se a roupa estiver colada na queimadura, devo retirá-la?",
+                "descricao": "Não. Retire roupa ou jóias perto da parte queimada, mas não tente remover nada que esteja colado à queimadura, Isto poderia causar mais danos."
+            }
+        ]
+    },
+    "Primeiros Socorros Psicológicos" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Os Primeiros Socorros Psicológicos são um conjunto de ações que podem oferecer apoio e conforto imediato às pessoas afetadas por um evento crítico ou grave. As pessoas podem estar visivelmente estressadas, afetadas por emoções intensas, podem estar apáticas ou ter perdido a esperança. Os Primeiros Socorros Psicológicos proporcionam apoio humano básico, dando informação prática e evidenciando empatia, preocupação, respeito e confiança nas capacidades do indivíduo.",
+                "descricao": "Esfriar a queimadura reduz a dor e o inchaço. Quanto mais rápido e prolongado for o resfriamento, menor o impacto da lesão."
+            },
+            {
+                "img": "",
+                "title": "Quatro elementos básicos dos Primeiros Socorros Psicológicos",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Mantenha-se por perto",
+                "descricao": "Pode ajudar um indivíduo a recuperar a confiança e sentido de segurança estando perto e mostrando cuidado e empatia. Esteja preparado se a pessoa parecer ansiosa, evidenciar emoções extremas, grite ou rejeite ajuda."
+            },
+            {
+                "img": "",
+                "title": "Escute ativamente",
+                "descricao": "Dedique tempo a ouvir atentamente quando ajudar alguém a superar um tempo difícil. Escute ativamente colocando questões clarificadoras, sem aprofundar muito o que se passou."
+            },
+            {
+                "img": "",
+                "title": "Aceite os sentimentos",
+                "descricao": "As pessoas em crise podem evidenciar emoções muito diferentes. Aceite a interpretação da outra pessoa sobre o evento e reconheça os seus sentimentos."
+            },
+            {
+                "img": "",
+                "title": "Preste cuidado geral e ajuda prática",
+                "descricao": "A assistência prática, como oferecer um copo de água, pode ser uma grande ajuda. Evite tomar mais responsabilidade pela situação do que aquela que a pessoa na realidade precisa."
+            }
+        ],
+        "FAQs": [
+        ]
+    },
+    "Animais" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Não tente parar, apanhar ou segurar o animal que mordeu uma pessoa.",
+                "descricao": "Ligue 192 se a ferida resultante da mordida do animal estiver sangrando muito ou se o animal puder transmitir raiva."
+            },
+            {
+                "img": "",
+                "title": "Se não tem a certeza se o animal tem ou não raiva, ligue 192. Se não for tratada, a raiva pode ser fatal.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Se a hemorragia for grave: controle primeiro a hemorragia; não tente limpar a ferida. A ferida será limpa numa unidade de saúde.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Se a hemorragia for pequena: lave a ferida com água.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Depois controle a hemorragia e aplique uma pomada anti-séptica e uma atadura.",
+                "descricao": ""
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "Como posso saber se um animal tem raiva?",
+                "descricao": "Os animais com raiva podem babar, parecer parcialmente paralisados, ser agressivos ou comportar-se de uma forma estranha Procure assistência médica imediatamente em caso de mordedura e se não tiver a certeza se o animal tem ou não raiva."
+            },
+            {
+                "img": "",
+                "title": "Devo preocupar-me se for mordido por um animal doméstico?",
+                "descricao": "As mordeduras tanto de animais domésticos como selvagens podem causar infecção e lesões nos tecidos. Ambas podem transmitir a raiva."
+            },
+            {
+                "img": "",
+                "title": "Como se trata a raiva?",
+                "descricao": "O tratamento para a raiva inclui uma série de vacinas para dar imunidade e para ajudar a combater a infecção."
+            }
+        ]
+    },
+    "Cobras Venenosas" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Uma pessoa que tenha sido mordida terá dores.",
+                "descricao": "Procure pela marca dos dentes e inchaço."
+            },
+            {
+                "img": "",
+                "title": "Ligue 192 imediatamente se uma pessoa for mordida por uma cobra ou leve ao hospital de referência no tratamento acidentes com animais peçonhentos.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Lave a ferida com cuidado.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Mantenha a parte mordida quieta e mais abaixo do coração. Mantenha a pessoa calma e não permita que ela ande, a não ser que seja absolutamente necessário.",
+                "descricao": ""
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "Quais as cobras que são venenosas e qual o seu aspecto?",
+                "descricao": "As cobras venenosas incluem, por exemplo, as cobras cascavel e coral. No Brasil as principais cobras venenosas são: jaracaca, surucucu, cascavel e coral."
+            },
+            {
+                "img": "",
+                "title": "Quais são os sintomas de envenenamento?",
+                "descricao": "Os sintomas de envenenamento moderado incluem náuseas, vômitos, 'cara de bêbado' e formigamento. Os sintomas de envenenamento grave incluem choque, coma e paralisia."
+            },
+            {
+                "img": "",
+                "title": "Devo aplicar gelo na picada ou usar um garrote?",
+                "descricao": "Não, não aplique gelo nem use um garrote em caso de picada de cobra. Tão pouco corte a ferida, não aplique sucção e não use choques elétricos."
+            }
+        ]
+    },
+    "Água viva" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Uma pessoa que tenha sido picada por uma Água viva deve sair da água o mais depressa possível.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Coloque vinagre",
+                "descricao": "Se não tiver vinagre, tente usar uma pasta de bicarbonato de sódio. Não toque na zona afetada com as mãos desprotegidas."
+            },
+            {
+                "img": "",
+                "title": "Quando o ardor parar, trate a dor com uma imersão em água quente.",
+                "descricao": "Se possível, faça com que a pessoa tome uma ducha de água quente durante 20 minutos."
+            },
+            {
+                "img": "",
+                "title": "Ligue 192 se a pessoa começar a ter dificuldade em respirar, se tiver um histórico de reações alérgicas graves a picadas de espécies marinhas ou se a picada for no rosto ou pescoço.",
+                "descricao": ""
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "E se não tiver vinagre?",
+                "descricao": "Para picadas de água viva, use uma pasta de bicarbonato de sódio se não tiver vinagre. Não use água fria porque pode aumentar a dor."
+            },
+            {
+                "img": "",
+                "title": "E se a pessoa não souber o que a picou?",
+                "descricao": "Ligue 192 se a pessoa não souber 0 que a picou, As picadas de algumas espécies marinhas podem fazer com que uma pessoa adoeça ou coloque a sua vida em risco."
+            },
+            {
+                "img": "",
+                "title": "E se uma pessoa for picada por uma raia, ouriço-do-mar ou por um peixe espinhoso?",
+                "descricao": "Passe a ferida por água da torneira. Também pode usar água do mar. Mantenha a parte afetada quieta e mergulhe-a em água quente durante 20 minutos ou até que a dor desapareça. Limpe a ferida e aplique uma atadura. A pessoa deve comunicar ao médico o que aconteceu."
+            }
+        ]
+    },
+    "Escorpiões & Aranhas" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Ligue 192 se suspeitar que a pessoa foi mordida por uma aranha 'viúva negra' ou 'aranha-marrom', picada por um escorpião ou se tiver uma reação alérgica grave. As mordidas destas aranhas e as picadas de alguns escorpiões podem pôr a vida humana em risco, especialmente a das crianças e idosos.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Lave a ferida cuidadosamente.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Aplique uma pomada anti-séptica e uma atadura.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Ponha gelo na parte afetada para reduzir a dor e o inchaço.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Aconselhe a pessoa a procurar assistência médica, se não, ligar 192.",
+                "descricao": "Se transportar a pessoa para uma unidade de saúde, mantenha a zona afetada quieta e elevada."
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "Qual o aspecto da aranha 'viúva negra'?",
+                "descricao": "A 'viúva negra' é preta com o desenho de uma ampulheta avermelhada na parte inferior do corpo."
+            },
+            {
+                "img": "",
+                "title": "Onde se podem encontrar estas aranhas e escorpiões?",
+                "descricao": "Estas aranhas preferem o escuro e locais mais escondidos como pilhas de madeira, pedras ou vegetação, garagens escuras e sótãos. Normalmente, as pessoas são mordidas nos braços e mãos. Os escorpiões vivem em zonas muito secas, por baixo de pedras, troncos de árvores e de certas cascas de árvores. Os escorpiões são mais ativos à noite."
+            },
+            {
+                "img": "",
+                "title": "Quais são os sintomas de uma picada de aranha ou escorpião?",
+                "descricao": "Os sintomas normais são marcas na pele, inchaço, náuseas, articulações rígidas e dolorosas, febre, dores musculares, sonolência e ritmo cardíaco acelerado."
+            },
+            {
+                "img": "",
+                "title": "Como posso distinguir uma picada de aranha de outra situação que apresente sintomas idênticos?",
+                "descricao": "Pode ser difícil reconhecer uma picada de aranha. A única forma de saber com total certeza se uma pessoa foi picada por uma aranha é presenciar o ataque. As picadas da 'viúva negra' podem causar uma sensação de picada aguda, seguida de uma dor incomodativa. As da 'aranha-marrom' podem não causar dor no início. Depois de uma hora, a dor pode surgir seguida de uma bolha de sangue."
+            },
+            {
+                "img": "",
+                "title": "Como posso saber se um escorpião é ou não venenoso?",
+                "descricao": "Os escorpiões possuem veneno neurotóxico, uns com mais veneno e outros com menos veneno, sendo classificados em mortais e não mortais. Por isso, qualquer picada de escorpião deve ser tratada como uma emergência médica. Embora em alguns casos podem ser tratadas em casa mesmo, mas se o quadro não melhorar ou se for uma criança, leve rapidamente ao pronto socorro."
+            }
+        ]
+    },
+    "Carrapatos" : {
+        "img":"",
+        "dicas": [
+            {
+                "img": "",
+                "title": "Apanhe o carrapato com uma pinça com as pontas finas, pontiagudas e sem lima, coloque-a junto à pele e puxe devagar.",
+                "descricao": "Não se esqueça de usar luvas descartáveis."
+            },
+            {
+                "img": "",
+                "title": "NÃO tente queimar o carrapato para retirá-lo ou aplicar um gel à base de petróleo ou verniz para as unhas.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Lave a área picada com água e sabão.",
+                "descricao": ""
+            },
+            {
+                "img": "",
+                "title": "Aplique um anti-séptico.",
+                "descricao": "Verifique primeiro se a pessoa não tem alergia ou alguma sensibilidade ao anti-séptico."
+            }
+        ],
+        "FAQs": [
+            {
+                "img": "",
+                "title": "Que tipo de repelente de insetos se deve usar em locais com muitas ervas e árvores, que podem estar infestadas com insetos ou carrapatos?",
+                "descricao": "Use repelente de insetos que contenha diethyl toluamide."
+            },
+            {
+                "img": "",
+                "title": "As crianças podem usar diethyl toluamide?",
+                "descricao": "Use produtos que contenham diethyl toluamide apenas a partir dos 2 meses de idade."
+            },
+            {
+                "img": "",
+                "title": "Qual o aspecto de uma erupção cutânea causada por picada de carrapato?",
+                "descricao": "A erupção cutânea começa com uma pequena área avermelhada, onde foi a picada, mas pode só aparecer alguns dias ou semanas depois. Em pele clara, o centro da erupção pode ser mais claro e os contornos avermelhados e com relevo (como o centro de um alvo)."
+            },
+            {
+                "img": "",
+                "title": "Quando é necessário tratamento médico em caso de picada de carrapato?",
+                "descricao": "Procure tratamento médico se não conseguir retirar o carrapato, se a cabeça do carrapato ficou encravada na pele ou se ocorrer uma erupção cutânea ou sinais de gripe, como febre, dor de cabeça, fraqueza e dores nas articulações e músculos."
+            },
+            {
+                "img": "",
+                "title": "Como se pega a doença de Lyme?",
+                "descricao": "A doença é transmitida através da picada de um carrapato infectado, geralmente por um veado."
+            },
+            {
+                "img": "",
+                "title": "Qual o tamanho de um carrapato deste tipo?",
+                "descricao": "É do tamanho de uma semente de papoula ou de uma cabeça de alfinete. O carrapato 'do veado' é menor do que um carrapato de cão."
+            }
+        ]
     }
 }
-
