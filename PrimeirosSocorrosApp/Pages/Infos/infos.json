@@ -1,6 +1,6 @@
 {
     "Alergias/Anafilaxia": {
-        "img":"",
+        "img":"assets/cruz.png",
         "dicas": [
             {
                 "img": "",
@@ -95,6 +95,11 @@
                 "img": "",
                 "title": "Tranquilize e anime a pessoa enquanto esperam pela ambulância.",
                 "descricao": "Se toma medicamentos, sugira que os tome."
+            },
+            {
+                "img": "",
+                "title": "O que devo fazer se a pessoa ficar inconsciente e parar de respirar?",
+                "descricao": "Seguir recomendações do app para “vítima inconsciente” respirando e sem respirar, com e sem pulso."
             }
         ],
         "FAQs": [
@@ -127,10 +132,6 @@
                 "img": "",
                 "title": "O que é a angina de peito?",
                 "descricao": "A angina de peito se manifesta através de uma sensação de aperto no peito. Ocorre quando o corpo não consegue fornecer sangue suficiente ao coração, devido ao estreitamento das artérias que irrigam o coração. É muitas vezes associada ao exercício físico ou excitação. Os sintomas incluem dor no peito e falta de ar, mas ao contrário do ataque cardíaco, os sintomas melhoram com descanso e com medicação adequada. Algumas pessoas que sofrem de angina de peito tomam medicação própria, em comprimidos."
-            },{
-                "img": "",
-                "title": "O que devo fazer se a pessoa ficar inconsciente e parar de respirar?",
-                "descricao": "Seguir recomendações do app para “vítima inconsciente” respirando e sem respirar, com e sem pulso."
             }
         ]
     },
