@@ -5,6 +5,15 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#fff',
     },
+    title:{
+      fontSize:20,
+      padding:15,
+    },
+    text:{
+      marginLeft:15,
+      marginRight:15,
+      color:"#444",
+    },
     topBar:{
       backgroundColor:"#ee0040",
       height:50,
@@ -16,17 +25,8 @@ const styles = StyleSheet.create({
       color:"#fff",
       fontSize:20,
     },
-    midView:{
-      flex:1,
-      justifyContent:"center",
-      alignItems:"center"
-
-    },
-    midText:{
-      fontSize:20,
-    },
-    endView:{
-      
+    button:{
+      padding:10
     }
   });
 
