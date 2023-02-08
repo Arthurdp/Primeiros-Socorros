@@ -3,7 +3,7 @@ import styles from './style';
 import infos from './infos'
 import { useRoute } from '@react-navigation/native';
 
-export default function Infos({ navigation }) {
+export default function Infos({ }) {
 
   var atualEmergency = ''
   var atualDicas = ''
@@ -19,7 +19,6 @@ export default function Infos({ navigation }) {
       atualDicas = atualEmergency[2][1]
       atualFAQs = atualEmergency[3][1]
     }
-    // console.log(atualEmergency[0][1])
   });
 
 
@@ -43,7 +42,9 @@ export default function Infos({ navigation }) {
             {(dica["img"] != "") &&
               <Image style={styles.img} source={dica["img"]} />
             }
-            <Text style={styles.dicaDesc}>{dica["descricao"]}</Text>
+            {(dica["descricao"] != "") &&
+              <Text style={styles.dicaDesc}>{dica["descricao"]}</Text>
+            }
           </View>)}
         </View>
 
@@ -51,7 +52,7 @@ export default function Infos({ navigation }) {
 
         <TouchableOpacity style={styles.toutchFAQ} >
           <Text style={styles.faq}>Perguntas e Respostas</Text>
-          <Image style={styles.arrow} source={require('../../assets/arrow-down.png')}></Image>
+          {/* <Image style={styles.arrow} source={require('../../assets/arrow-down.png')}></Image> */}
         </TouchableOpacity >
         {/* <Collapsible collapsed={collapse} duration={300} > */}
         <View style={styles.view}>
@@ -62,7 +63,9 @@ export default function Infos({ navigation }) {
             {(FAQ["img"] != "") &&
               <Image style={styles.img} source={FAQ["img"]}></Image>
             }
-            <Text style={styles.FAQDesc}>{FAQ["descricao"]}</Text>
+            {(FAQ["descricao"] != "") &&
+              <Text style={styles.FAQDesc}>{FAQ["descricao"]}</Text>
+            }
           </View>)}
         </View>
         {/* </Collapsible> */}

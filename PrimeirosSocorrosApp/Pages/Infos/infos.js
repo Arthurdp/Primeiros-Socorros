@@ -5,7 +5,7 @@ const infos = [{
         {
             img: "",
             title: "A pessoa pode desenvolver uma erupção cutânea, urticária ou inchaço nas mãos, pés ou rosto. A respiração pode se tornar lenta.",
-            descrcao: "Também podem ocorrer vômitos e diarreia.As causas mais comuns das reações alérgicas são o pólen, picadas de insetos, látex, corantes, medicamentos e alguns alimentos, como frutos secos, frutos do mar ou lacticínios."
+            descricao: "Também podem ocorrer vômitos e diarreia.As causas mais comuns das reações alérgicas são o pólen, picadas de insetos, látex, corantes, medicamentos e alguns alimentos, como frutos secos, frutos do mar ou lacticínios."
         },
         {
             img: "",
@@ -962,7 +962,7 @@ const infos = [{
 },
 {
     nome:"Obstrução da Via Aérea (engasgo)",
-    img: require('PrimeirosSocorrosApp/assets/engasgo-paciente.jpg'),
+    img: require('../../assets/infos/engasgo-paciente.jpg'),
     dicas: [
         {
             img: require('../../assets/infos/engasgo-ajuda-crianca.jpg'),
@@ -1000,7 +1000,7 @@ const infos = [{
 },
 {
     nome:"Perfuração",
-    img: require('PrimeirosSocorrosApp/assets/perfuração.jpeg'),
+    img: require('../../assets/infos/perfuração.jpeg'),
     dicas: [
         {
             img: "",
@@ -1114,7 +1114,7 @@ const infos = [{
 },
 {
     nome:"Queimaduras",
-    img: require('PrimeirosSocorrosApp/assets/fogo.jpg'),
+    img: require('../../assets/infos/fogo.jpg'),
     dicas: [
         {
             img: "",
@@ -1291,7 +1291,7 @@ const infos = [{
 },
 {
     nome:"Água viva",
-    img: require('PrimeirosSocorrosApp/assets/agua-viva.webp'),
+    img: require('../../assets/infos/agua-viva.webp'),
     dicas: [
         {
             img: require('../../assets/infos/agua-viva-paciente.jpg'),
@@ -1334,7 +1334,7 @@ const infos = [{
 },
 {
     nome:"Escorpiões & Aranhas",
-    img: require('PrimeirosSocorrosApp/assets/escorpiao.jpeg'),
+    img: require('../../assets/infos/escorpiao.jpeg'),
     dicas: [
         {
             img: "",

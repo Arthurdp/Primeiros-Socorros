@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
       color:"#444",
     },
     toutchFAQ:{
-      height: 30
+      padding:10
     },
     FAQTitle:{
       fontSize:16,
@@ -30,7 +30,9 @@ const styles = StyleSheet.create({
     faq:{
       justifyContent:"center",
       fontSize:18,
-      marginLeft:20
+      marginLeft:20,
+      marginTop:20,
+      marginBottom:20
     },
     topBar:{
       backgroundColor:"#ee0040",
