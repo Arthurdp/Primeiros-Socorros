@@ -18,7 +18,7 @@ const infos = [{
             descricao: "Se começar a agravar seu quadro, leve-a ao pronto socorro o mais rápido possível."
         }
     ],
-    "FAQs": [
+    FAQs: [
         {
             img: "",
             title: "Que tipos de alimentos podem causar uma reação alérgica?",
@@ -104,7 +104,7 @@ const infos = [{
             descricao: "Seguir recomendações do app para “vítima inconsciente” respirando e sem respirar, com e sem pulso."
         }
     ],
-    "FAQs": [
+    FAQs: [
         {
             img: "",
             title: "O que é um ataque cardíaco (infarto)?",
