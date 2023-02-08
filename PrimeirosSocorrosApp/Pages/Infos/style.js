@@ -6,18 +6,21 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff',
     },
     dicaTitle:{
-      fontSize:16,
+      fontSize:17,
     },
     dicaDesc:{
-      fontSize:13,
+      fontSize:15,
       padding:15,
       color:"#444",
     },
+    toutchFAQ:{
+      height: 30
+    },
     FAQTitle:{
-      fontSize:14,
+      fontSize:16,
     },
     FAQDesc:{
-      fontSize:12,
+      fontSize:14,
       padding:15,
       color:"#444",
     },
@@ -26,16 +29,15 @@ const styles = StyleSheet.create({
     },
     faq:{
       justifyContent:"center",
-      fontSize:15,
-      marginLeft:40
+      fontSize:18,
+      marginLeft:20
     },
     topBar:{
       backgroundColor:"#ee0040",
-      height:40,
+      height:50,
       alignContent:"center",
       alignItems:"center",
       justifyContent:"center",
-      marginTop:1
     },
     topBarText:{
       color:"#fff",

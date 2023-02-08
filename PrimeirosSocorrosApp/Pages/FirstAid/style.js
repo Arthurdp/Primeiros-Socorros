@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
       fontSize:20,
     },
     touch:{
+      display:"flex",
       height:60,
       borderWidth:1,
       borderRightWidth:0,
@@ -32,8 +33,9 @@ const styles = StyleSheet.create({
       marginLeft:10,
     },
     img:{
-      height:20,
-      width: 20
+      height:40,
+      width:40,
+      alignSelf:"flex-start"
     }
   });
 

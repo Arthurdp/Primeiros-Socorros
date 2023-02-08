@@ -15,7 +15,6 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <GestureHandlerRootView>
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={
@@ -41,7 +40,6 @@ export default function App() {
           }} />
         </Stack.Navigator>
       </NavigationContainer>
-    </GestureHandlerRootView>
   );
 }
 

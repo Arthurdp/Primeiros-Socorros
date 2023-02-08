@@ -1,7 +1,7 @@
 {
     "jsonEmergencyList": [
         {
-            "img": "assets/cruz.png",
+            "img": "../../assets/cruz.png",
             "title": "Alergias/Anafilaxia"
         },
         {

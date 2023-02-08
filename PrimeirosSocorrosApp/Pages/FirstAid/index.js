@@ -1,13 +1,13 @@
 import { Button, FlatList, Linking, Text, Image, TouchableOpacity, View } from 'react-native';
 import styles from './style';
-import emergencyJson from "./emergencyList.json"
+import jsonEmergencyList from "./emergencyList"
 
 export default function FirstAid({navigation}) {
 
   return (
     <View style={styles.container}>
       <FlatList
-        data={emergencyJson.jsonEmergencyList}
+        data={jsonEmergencyList}
         renderItem={({ item }) => {
           return (
             <View>
@@ -17,8 +17,8 @@ export default function FirstAid({navigation}) {
                 })
               }
               style={styles.touch}>
-                <Image style={styles.img} source={"../assets/cruz.png"}></Image>
-                <Text style={styles.touchText}>{item.title}</Text>
+                <Image style={styles.img} source={ item.img } alt=""></Image>
+                <Text style={styles.touchText}>{ item.title }</Text>
               </TouchableOpacity>
             </View>
           )
