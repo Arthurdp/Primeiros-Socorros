@@ -1,6 +1,6 @@
 import { Text, View, Image, ScrollView, Button, Linking, TouchableOpacity } from 'react-native';
 import styles from './style';
-import jsonInfos from './infos.json'
+import infos from './infos'
 import { useRoute } from '@react-navigation/native';
 
 export default function Infos({ navigation }) {
@@ -13,12 +13,13 @@ export default function Infos({ navigation }) {
 
   var title = route.params.title
 
-  Object.entries(jsonInfos).forEach(element => {
+  Object.entries(infos).forEach(element => {
     if (element[0] == title) {
       atualEmergency = element
       atualDicas = Object.entries(atualEmergency[1])[1][1]
       atualFAQs = Object.entries(atualEmergency[1])[2][1]
     }
+    console.log(element[0])
   });
 
 
