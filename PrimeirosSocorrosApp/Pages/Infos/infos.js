@@ -1421,6 +1421,6 @@ const infos = [{
 //             descricao: "É do tamanho de uma semente de papoula ou de uma cabeça de alfinete. O carrapato 'do veado' é menor do que um carrapato de cão."
 //         }
     // ]
-}
+// }
 ]
 export default infos
