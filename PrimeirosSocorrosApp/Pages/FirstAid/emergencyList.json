@@ -1,119 +1,119 @@
 {
     "jsonEmergencyList": [
         {
-            "img": "assets/cruz.png",
+            "img": "assets/alergia.png",
             "title": "Alergias/Anafilaxia"
         },
         {
-            "img": "http",
+            "img": "assets/icons/anxiety.png",
             "title": "ANSIEDADE"
         },
         {
-            "img": "http",
+            "img": "assets/icons/infarto.png",
             "title": "Ataque Cardíaco (Infarto)"
         },
         {
-            "img": "http",
+            "img": "assets/icons/avc.png",
             "title": "Acidente Vascular Cerebral (AVC) - Derrame"
         },
         {
-            "img": "http",
+            "img": "assets/icons/choque.png",
             "title": "Choque"
         },
         {
-            "img": "http",
+            "img": "assets/icons/asma.png",
             "title": "Crise de Asma"
         },
         {
-            "img": "http",
+            "img": "assets/icons/diabetes.png",
             "title": "Crise Diabética"
         },
         {
-            "img": "http",
+            "img": "assets/icons/eplepsia.png",
             "title": "Crise Epiléptica"
         },
         {
-            "img": "http",
+            "img": "assets/icons/entorce.png",
             "title": "Distensões e Entorses"
         },
         {
-            "img": "http",
+            "img": "assets/icons/envenenamento.png",
             "title": "Envenenamento / Substâncias Perigosas"
         },
         {
-            "img": "http",
+            "img": "assets/icons/fratura.png",
             "title": "Fratura"
         },
         {
-            "img": "http",
+            "img": "assets/icons/hemorragia.png",
             "title": "Hemorragia"
         },
         {
-            "img": "http",
+            "img": "assets/icons/hipotermia.png",
             "title": "Hipotermia"
         },
         {
-            "img": "http",
+            "img": "assets/icons/inconsciente_e_respira.png",
             "title": "Inconsciente e Respira"
         },
         {
-            "img": "http",
+            "img": "assets/icons/inc_e_não respira.png",
             "title": "Inconsciente e Não Respira"
         },
         {
-            "img": "http",
+            "img": "assets/icons/insolação.png",
             "title": "Insolação"
         },
         {
-            "img": "http",
+            "img": "assets/icons/lesões_na_cabeça.png",
             "title": "Lesões na Cabeça"
         },
         {
-            "img": "http",
+            "img": "assets/icons/meningite.png",
             "title": "Meningite"
         },
         {
-            "img": "http",
+            "img": "assets/icons/engasgo.png",
             "title": "Obstrução da Via Aérea (engasgo)"
         },
         {
-            "img": "http",
+            "img": "assets/icons/perfuração.png",
             "title": "Perfuração"
         },
         {
-            "img": "http",
+            "img": "assets/icons/picadas_e_mordidas.png",
             "title": "Picadas / Mordidas"
         },
         {
-            "img": "http",
+            "img": "assets/icons/picada_de_insetos.png",
             "title": "Picadas de Insetos & Mordidas"
         },
         {
-            "img": "http",
+            "img": "assets/icons/queimadura.png",
             "title": "Queimaduras"
         },
         {
-            "img": "http",
+            "img": "assets/icons/primeiros_socorros_psicologicos.png",
             "title": "Primeiros Socorros Psicológicos"
         },
         {
-            "img": "http",
+            "img": "assets/icons/animais.png",
             "title": "Animais"
         },
         {
-            "img": "http",
+            "img": "assets/icons/cobra.png",
             "title": "Cobras Venenosas"
         },
         {
-            "img": "http",
+            "img": "assets/icons/agua_viva.png",
             "title": "Água viva"
         },
         {
-            "img": "http",
+            "img": "assets/icons/escorpião.png",
             "title": "Escorpiões & Aranhas"
         },
         {
-            "img": "http",
+            "img": "assets/icons/carrapato.png",
             "title": "Carrapatos"
         }
     ]
