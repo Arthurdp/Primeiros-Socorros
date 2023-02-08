@@ -1,9 +1,9 @@
 const infos = [{
     nome: "Alergias/Anafilaxia",
-    img: "",
+    img: require('../../assets/infos/alergia-paciente.jpg'),
     dicas: [
         {
-            img: require('../../assets/infos/alergia-paciente.jpg'),
+            img: "",
             title: "A pessoa pode desenvolver uma erupção cutânea, urticária ou inchaço nas mãos, pés ou rosto. A respiração pode se tornar lenta.",
             descrcao: "Também podem ocorrer vômitos e diarreia.As causas mais comuns das reações alérgicas são o pólen, picadas de insetos, látex, corantes, medicamentos e alguns alimentos, como frutos secos, frutos do mar ou lacticínios."
         },
@@ -43,10 +43,10 @@ const infos = [{
 },
 {
     nome: "ANSIEDADE",
-    img: "",
+    img: require('../../assets/infos/ansiedade-paciente.jpg'),
     dicas: [
         {
-            img: require('../../assets/infos/ansiedade-paciente.jpg'),
+            img: "",
             title: "Mostre que está ouvindo e pergunte calmamente como pode ajudar.",
             descricao: "Deve tentar criar uma relação de confiança com a pessoa, mostrando respeito por ela."
         },

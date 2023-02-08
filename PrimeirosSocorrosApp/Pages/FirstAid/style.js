@@ -33,9 +33,10 @@ const styles = StyleSheet.create({
       marginLeft:10,
     },
     img:{
-      height:40,
-      width:40,
+      height:30,
+      width:30,
       alignSelf:"flex-start"
+      
     }
   });
 

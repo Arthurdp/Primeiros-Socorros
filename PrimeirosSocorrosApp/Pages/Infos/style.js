@@ -43,6 +43,20 @@ const styles = StyleSheet.create({
       color:"#fff",
       fontSize:20,
     },
+    img:{
+      display:"flex",
+      height:100,
+      width:"100%"
+    },
+    titleImg:{
+      display:"flex",
+      height:200,
+      width:"100%"
+    },
+    arrow:{
+      height:10,
+      width:10
+    }
   });
 
 export default styles;
