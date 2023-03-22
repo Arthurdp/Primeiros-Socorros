@@ -7,12 +7,29 @@ const styles = StyleSheet.create({
     },
     title:{
       fontSize:20,
-      padding:15,
     },
     text:{
       marginLeft:15,
       marginRight:15,
       color:"#444",
+      fontSize:17,
+    },
+    number:{
+      color:"#fff",
+      fontSize:15,
+    },
+    numberView:{
+      backgroundColor: "#ee0040",
+      borderRadius:50,
+      marginRight:15,
+      height:30,
+      width:30,
+      alignItems:"center",
+      justifyContent:"center",
+    },
+    titleBar:{
+      flexDirection:"row",
+      padding:15
     },
     topBar:{
       backgroundColor:"#ee0040",

@@ -33,12 +33,16 @@ export default function Infos({ }) {
         <Text style={styles.topBarText}>{atualEmergency[0][1]}</Text>
       </View>
       <ScrollView>
-        <Image style={styles.titleImg} source={atualEmergency[1][1]}></Image>
+        {(atualEmergency[1][1] != "") &&
+          <Image style={styles.titleImg} source={atualEmergency[1][1]}></Image>
+        }
         <View style={styles.view}>
           {
           }
           {atualDicas.map(dica => <View key={dica["title"]}>
-            <Text style={styles.dicaTitle}>{dica["title"]}</Text>
+          <View style={styles.titleBar}>
+          <View style={styles.numberView}><Text style={styles.number}>{dica["id"]}</Text></View>
+          <Text style={styles.dicaTitle}>{dica["title"]}</Text></View>
             {(dica["img"] != "") &&
               <Image style={styles.img} source={dica["img"]} />
             }

@@ -19,6 +19,23 @@ const styles = StyleSheet.create({
     FAQTitle:{
       fontSize:16,
     },
+    number:{
+      color:"#fff",
+      fontSize:15,
+    },
+    numberView:{
+      backgroundColor: "#ee0040",
+      borderRadius:50,
+      marginRight:15,
+      height:30,
+      width:30,
+      alignItems:"center",
+      justifyContent:"center",
+    },
+    titleBar:{
+      flexDirection:"row",
+      padding:15
+    },
     FAQDesc:{
       fontSize:14,
       padding:15,

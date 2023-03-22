@@ -3,11 +3,13 @@ const infos = [{
     img: require('../../assets/infos/alergia-paciente.jpg'),
     dicas: [
         {
+            id: "1",
             img: "",
             title: "A pessoa pode desenvolver uma erupção cutânea, urticária ou inchaço nas mãos, pés ou rosto. A respiração pode se tornar lenta.",
             descricao: "Também podem ocorrer vômitos e diarreia.As causas mais comuns das reações alérgicas são o pólen, picadas de insetos, látex, corantes, medicamentos e alguns alimentos, como frutos secos, frutos do mar ou lacticínios."
         },
         {
+            id: "2",
             img: "",
             title: "Se a pessoa estiver sofrendo uma reação alérgica, ligue 192.",
             descricao: "Se a pessoa estiver com uma reação alérgica (problemas respiratórios, choque ou alterações da consciência) e tiver uma injeção/caneta de epinefrina, ajude-a a utilizá-la."
@@ -70,7 +72,7 @@ const infos = [{
     ]
 },
 {
-    nome: "Ataque Cardíaco(Infarto)",
+    nome: "Ataque Cardíaco (Infarto)",
     img: "",
     dicas: [
         {
