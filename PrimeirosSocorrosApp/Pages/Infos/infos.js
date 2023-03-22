@@ -394,6 +394,35 @@ const infos = [{
     ]
 },
 {
+    nome: "Desidratação",
+    img: require('../../assets/infos/desidratacao.jpg'),
+    dicas: [
+        {
+            id: "1",
+            img: "",
+            title: "A desidratação ocorre quando o corpo perde mais líquidos do que ingere.",
+            descricao: "Os sintomas incluem sede, boca seca, urina escura, tontura e fadiga."
+        },
+        {
+            img: require('../../assets/infos/desidratacao.jpg'),
+            title: "O tratamento envolve a ingestão de líquidos.",
+            descricao: "É necessário a procura de atendimento médico se os sintomas persistirem."
+        }
+    ],
+    FAQs: [
+        {
+            img: "",
+            title: "Como prevenir a desidratação?",
+            descricao: "Bebendo água regularmente, evitando exposição excessiva ao sol e umidade, e mantendo uma alimentação balanceada e rica em líquidos."
+        },
+        {
+            img: "",
+            title: "Quando devo procurar ajuda médica em caso de desidratação?",
+            descricao: "Quando sintomas como febre alta persistirem."
+        }
+    ]
+},
+{
     nome:"Distensões e Entorses",
     img: "",
     dicas: [
@@ -913,6 +942,25 @@ const infos = [{
             img: "",
             title: "Como se tratam as cãibras provocadas pelo calor?",
             descricao: "Se alguém estiver tendo câimbras nas pernas ou abdômen, leve a pessoa para um local fresco, coloque-a em posição de descanso, alongue ligeiramente o músculo afetado e compense a perda de fluidos com meio copo (um pouco mais de 100ml) de água, a cada 15 minutos, de preferência o soro caseiro (um punhado de açúcar e uma pitada de sal para cada litro de água)."
+        }
+    ]
+},
+{
+    nome: "Intoxicação por produtos químicos",
+    img: "",
+    dicas: [
+        {
+            id: "1",
+            img: require('../../assets/infos/intoxicacao_produtos_quimicos.jpg'),
+            title: "Pode ocorrer quando uma pessoa é exposta a substâncias tóxicas",
+            descricao: "Geralmente ocorre no trabalho ou em casa com uso de produtos de limpeza, pesticidas, tintas ou vapores químicos."
+        }
+    ],
+    FAQs: [
+        {
+            img: "",
+            title: "O que informar ao ligar para um Centro de Intoxicações?",
+            descricao: "Com qual substância o paciente teve contato. Ter o rótulo ou bula do produto em mãos facilita o atendimento e evita informações erradas."
         }
     ]
 },

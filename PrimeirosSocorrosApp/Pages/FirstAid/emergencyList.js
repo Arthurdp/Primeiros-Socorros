@@ -1,23 +1,39 @@
 const jsonEmergencyList = [
     {
+        img: require('../../assets/icons/avc.png'),
+        title: "Acidente Vascular Cerebral (AVC) - Derrame"
+    },
+    {
         img: require('../../assets/icons/alergia.png'),
         title: "Alergias/Anafilaxia"
+    },
+    {
+        img: require('../../assets/icons/anemia_falciforme.png'),
+        title: "Anemia Falciforme"
     },
     {
         img: require('../../assets/icons/anxiety.png'),
         title: "ANSIEDADE"
     },
     {
+        img: require('../../assets/icons/asma_grave.png'),
+        title: "Asma Grave"
+    },
+    {
         img: require('../../assets/icons/infarto.png'),
         title: "Ataque Cardíaco (Infarto)"
     },
     {
-        img: require('../../assets/icons/avc.png'),
-        title: "Acidente Vascular Cerebral (AVC) - Derrame"
+        img: require('../../assets/icons/ataque_de_panico.png'),
+        title: "Ataque de Pânico"
     },
     {
         img: require('../../assets/icons/choque.png'),
         title: "Choque"
+    },
+    {
+        img: require('../../assets/icons/convulsoes_febris.png'),
+        title: "Convulsões Febris"
     },
     {
         img: require('../../assets/icons/asma.png'),
@@ -32,12 +48,28 @@ const jsonEmergencyList = [
         title: "Crise Epiléptica"
     },
     {
+        img: require('../../assets/icons/desidratacao.png'),
+        title: "Desidratação"
+    },
+    {
+        img: require('../../assets/icons/desmaio.png'),
+        title: "Desmaio"
+    },
+    {
         img: require('../../assets/icons/entorce.png'),
         title: "Distensões e Entorses"
     },
     {
+        img: require('../../assets/icons/dor_de_garganta.png'),
+        title: "Dor de Garganta"
+    },
+    {
         img: require('../../assets/icons/envenenamento.png'),
         title: "Envenenamento / Substâncias Perigosas"
+    },
+    {
+        img: require('../../assets/icons/fibromialgia.png'),
+        title: "Fibromialgia"
     },
     {
         img: require('../../assets/icons/fratura.png'),
@@ -46,6 +78,10 @@ const jsonEmergencyList = [
     {
         img: require('../../assets/icons/hemorragia.png'),
         title: "Hemorragia"
+    },
+    {
+        img: require('../../assets/icons/hipoglicemia.png'),
+        title: "Hipoglicemia"
     },
     {
         img: require('../../assets/icons/hipotermia.png'),
@@ -62,6 +98,14 @@ const jsonEmergencyList = [
     {
         img: require('../../assets/icons/insolação.png'),
         title: "Insolação"
+    },
+    {
+        img: require('../../assets/icons/insuficiencia_renal_aguda.png'),
+        title: "Insuficiência Renal Aguda"
+    },
+    {
+        img: require('../../assets/icons/intoxicacao_produtos_quimicos.png'),
+        title: "Intoxicação por Produtos Químicos"
     },
     {
         img: require('../../assets/icons/lesões_na_cabeça.png'),
@@ -96,6 +140,14 @@ const jsonEmergencyList = [
         title: "Primeiros Socorros Psicológicos"
     },
     {
+        img: require('../../assets/icons/sindrome_fadica_cronica.png'),
+        title: "Síndrome da Fadiga Crônica"
+    },
+    {
+        img: require('../../assets/icons/sindrome_intestino_irritavel.png'),
+        title: "Síndrome do Intestino Irritável"
+    },
+    {
         img: require('../../assets/icons/animais.png'),
         title: "Animais"
     },
@@ -115,5 +167,6 @@ const jsonEmergencyList = [
         img: require('../../assets/icons/carrapato.png'),
         title: "Carrapatos"
     }
+
 ]
 export default jsonEmergencyList;
