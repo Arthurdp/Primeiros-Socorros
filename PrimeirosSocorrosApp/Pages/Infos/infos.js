@@ -48,11 +48,13 @@ const infos = [{
     img: require('../../assets/infos/ansiedade-paciente.jpg'),
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Mostre que está ouvindo e pergunte calmamente como pode ajudar.",
             descricao: "Deve tentar criar uma relação de confiança com a pessoa, mostrando respeito por ela."
         },
         {
+            id: "2",
             img: require('../../assets/infos/ansiedade-ajuda.jpg'),
             title: "Seja atencioso e mostre que se preocupa com o que está acontecendo à sua volta e com o que ela precisar.",
             descricao: "Lembre-se de que a pessoa pode ter dificuldade em expressar o que precisa. Por exemplo, pode não falar bem português ou ter dificuldade em ouvir. Assim como, pode ter problemas mentais ou doenças degenerativas no cérebro."
@@ -76,31 +78,37 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/infarto-paciente.jpg'),
             title: "A vítima pode ter uma dor aguda e opressiva no peito ou um desconforto isolado e inexplicável nos braços, pescoço, queixo, costas ou estômago, desconforto do tipo formigamento ou dormência.",
             descricao: "A dor é causada por um bloqueio no fornecimento de sangue ao músculo cardíaco e não melhora com descanso."
         },
         {
+            id: "2",
             img: "",
             title: "Ligue 192 0 quanto antes ou peça a alguém que o faça. Neste caso é de suma importância o atendimento médico o quanto antes, por isso, veja a viabilidade em levar a pessoa ao pronto socorro.",
             descricao: "A pessoa deve receber assistência médica o mais depressa possível, porque um ataque cardíaco é muito grave e requer atenção imediata."
         },
         {
+            id: "3",
             img: "",
             title: "Se a vítima está medicada, facilite o acesso aos seus medicamentos.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Assegure-se de que ela está numa posição confortável (ex. sentada no chão, encostada a uma parede ou cadeira).",
             descricao: "Isto diminui a pressão no coração. Se a pessoa estiver sentada no chão, terá menor probabilidade de se machucar em caso de inconsciência."
         },
         {
+            id: "5",
             img: "",
             title: "Tranquilize e anime a pessoa enquanto esperam pela ambulância.",
             descricao: "Se toma medicamentos, sugira que os tome."
         },
         {
+            id: "6",
             img: "",
             title: "O que devo fazer se a pessoa ficar inconsciente e parar de respirar?",
             descricao: "Seguir recomendações do app para “vítima inconsciente” respirando e sem respirar, com e sem pulso."
@@ -144,20 +152,24 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/dor-de-cabeca.jpg'),
             title: "Avaliação rápida usando Escala de Cincinatti para AVC:",
             descricao: " Rosto: Peça para sorrir. Algum dos lados da face está descaído? BRAÇOS: A pessoa consegue erguer ambos os braços? FALA: peça para repetir a frase: ‘Você não ensina truques novos a cachorro velho’. consegue-se perceber facilmente o que a pessoa diz? Ligue rapidamente 192 e/ou encaminhe rapidamente ao pronto socorro."
             },
         {
+            id: "2",
             img: "",
             title: "O AVC é causado por uma interrupção no fornecimento do sangue ao cérebro.",
             descricao: "Parte do cérebro fica danificada, o que pode afetar a aparência da pessoa, sinais vitais, fala e visão. Pode ser por isquemia (entupimento do vaso sanguíneo) ou por derrame (rompimento do vaso sanguíneo) no cérebro."
         },
         {
+            id: "3",
             img: "",
             title: "Ligue 192 imediatamente ou peça a alguém que o faça.",
             descricao: "O AVC requer atenção imediata, e quanto mais cedo a vítima receber assistência médica, menores são os danos."
         }, {
+            id: "4",
             img: "",
             title: "Fale com a pessoa para a tranquilizar, enquanto esperam pela ambulância.",
             descricao: " Monitore vias aéreas e circulação, deite a vítima com cabeça e ombros ligeiramente mais elevados, afrouxe as roupas, vire ligeiramente a cabeça para o lado, a fim de drenar saliva ou vômito, não dê nada para ingerir, preserve a temperatura corporal e mantenha a vítima em repouso. Se inconsciente, coloque-a na posição de recuperação."
@@ -196,31 +208,37 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/choque-paciente.jpg'),
                 title: "Procure os seguintes sintomas para determinar se alguém pode estar em choque: ",
                 descricao: "Inquietação ou irritabilidade; náuseas ou vômitos; sonolência, confusão ou perda de consciência; pele pálida, fria e úmida. Os lábios e as unhas dos dedos podem também estar azulados. A respiração e o pulso podem estar acelerados. Tremores e respiração curta, rápida e irregular."
             },
         {
+            id: "2",
             img: "",
             title: "Deixe a pessoa deitada.",
             descricao: "Caso não esteja seguro do estado da pessoa."
         },
         {
+            id: "3",
             img: "",
             title: "Controle alguma hemorragia externa, caso exista.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Evite que a pessoa tenha frio ou calor demasiados.",
             descricao: "Mantenha a vítima agasalhada e com os membros inferiores elevados, em torno de 30 graus."
         },
         {
+            id: "5",
             img: "",
             title: "Não lhe dê nada para comer ou beber",
             descricao: ""
         },
         {
+            id: "6",
             img: "",
             title: "Peça a alguém que ligue 192.",
             descricao: ""
@@ -233,16 +251,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/ansiedade-paciente.jpg'),
                 title: "Ajude a pessoa a sentar-se numa posição confortável e ajude-a a tomar a sua medicação.",
                 descricao: ""
             },
         {
+            id: "2",
             img: require('../../assets/infos/asma-remedio.jpeg'),
                 title: "Quando alguém tem uma crise de asma, os músculos das vias respiratórias se contraem, tornando a respiração difícil.",
                 descricao: "A utilização de um inalador/bomba de asma relaxa os músculos, facilitando a passagem do ar e a respiração."
             },
         {
+            id: "3",
             img: "",
             title: "Tranquilize a pessoa. Se a crise piorar e se a pessoa não tiver com ela medicação ou se o remédio não fizer efeito, ligue 192 ou peça a alguém que o faça.",
             descricao: "Uma crise ligeira deve melhorar em poucos minutos. Se isso não acontecer, ou se o inalador/bomba de asma não surtir efeito, ligue 192."
@@ -281,16 +302,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Caso a vítima esteja consciente, dê a ela açúcar, suco de fruta, doces ou uma bebida açucarada. ",
             descricao: "Mas pergunte a quanto tempo ela se alimentou ou se fez uso de insulina, antes de dar qualquer coisa a ela."
         },
         {
+            id: "2",
             img: require('../../assets/infos/suco-de-fruta.jpg'),
                 title: "Numa crise diabética os níveis de açúcar no sangue podem descer drasticamente e provocar a inconsciência da pessoa.",
                 descricao: "Se der algo com açúcar à vítima, está ajudando a aumentar os níveis de açúcar no sangue e a melhorar as suas funções vitais. Evite bebidas dietéticas que não têm açúcar e, portanto, não podem ajudar"
             },
         {
+            id: "3",
             img: "",
             title: "Tranquilize a pessoa. Ligue 192 se tiver dúvidas ou se a condição da vítima não melhorar, se tiver dificuldade em respirar ou se perder a consciência.",
             descricao: ""
@@ -339,11 +363,13 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Não contenha a crise, proteja a cabeça com uma almofada ou algo semelhante, com pouca altura para não comprometer as suas vias respiratórias.",
             descricao: "Se tentar conter a crise pode causar lesões em si próprio ou na vítima. Deixe que a crise siga o seu curso normal."
         },
         {
+            id: "2",
             img: "",
             title: "Depois da crise, vire a pessoa de lado com a cabeça inclinada para trás. Afrouxe as roupas para facilitar a circulação.",
             descricao: "Este procedimento faz com que a pessoa continue respirando e que possíveis fluidos sejam drenados pela boca."
@@ -372,26 +398,31 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/entorse-paciente.jpg'),
                 title: "Lembre-se: Descanso, Imobilização, Frio, Elevação.",
                 descricao: "Aplicam-se no socorro de lesões nos músculos, ossos e articulações."
             },
         {
+            id: "2",
             img: "",
             title: "Descanso",
             descricao: "Não se mexa ou tente alinhar a área lesionada."
         },
         {
+            id: "3",
             img: "",
             title: "Imobilização ",
             descricao: "Estabilize a área lesionada na posição em que foi encontrada."
         },
         {
+            id: "4",
             img: require('../../assets/infos/gelo.jpg'),
                 title: "Frio",
                 descricao: "Aplique um saco de gelo na lesão, para reduzir o inchaço e a dor."
             },
         {
+            id: "5",
             img: "",
             title: "Elevação",
             descricao: "Eleve a parte lesionada apenas se não causar mais dores."
@@ -450,16 +481,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/veneno.jpg'),
                 title: "Tente identificar o que a vítima tomou, quando e em que quantidade.",
                 descricao: "Se o produto for industrializado, observe o rótulo, pois muitas das vezes possuem um antídoto para o veneno ou, na pior das hipóteses, as recomendações adequadas ao uso indevido daquele produto. Leve, se possível, o rótulo da substância ingerida. Os serviços de emergência médica vão necessitar destas informações."
             },
         {
+            id: "2",
             img: "",
             title: "Se a pessoa ficar inconsciente, tiver uma mudança no comportamento, dificuldade em respirar, ligue 192 ou leve-a rapidamente ao pronto socorro.",
             descricao: "A substância pode ser muito perigosa e a pessoa pode necessitar de assistência médica com urgência"
         },
         {
+            id: "3",
             img: "",
             title: "Não lhe provoque vômito ou não dê nenhum tipo de bebida, a não ser que um médico lhe diga para fazer.",
             descricao: "Ao provocar o vômito, pode causar maiores danos na sua garganta ou bloquear as vias respiratórias. Isso se a substância for ácida ou alcalina, ou, ainda derivada de petróleo."
@@ -498,16 +532,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/fratura-paciente.jpg'),
                 title: "Ajude a pessoa a imobilizar a fratura com a sua própria mão ou utilize uma almofada, peça de roupa, revistas, jornais, papelão ou qualquer outro material que poderá servir para imobilizar o membro fraturado para evitar movimentos desnecessários",
                 descricao: "Imobilizar a lesão proporciona alívio na dor e previne outros danos."
             },
         {
+            id: "2",
             img: "",
             title: "Se a área afetada estiver bastante deformada, se causar muitas dores será necessário transportá-la ao hospital, ligue 192 ou peça a alguém que o faça.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Garanta que o membro fraturado esteja devidamente imobilizado até que a ajuda chegue ou até a chegada ao hospital. ",
             descricao: ""
@@ -551,16 +588,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/hemorragia-ajuda.webp'),
                 title: "Faça pressão sobre a hemorragia com aquilo que estiver à disposição, para estancar ou reduzir o fluxo de sangue.",
                 descricao: "Estará atuando como um 'tampão' que impedirá o sangue de sair. A pressão que fizer ajudará o sangue a coagular e a parar a hemorragia."
             },
         {
+            id: "2",
             img: "",
             title: "Se a hemorragia for grave, ligue 192 0 quanto antes ou peça a alguém que o faça.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Mantenha a pressão sobre a hemorragia até que a ajuda chegue.",
             descricao: ""
@@ -614,16 +654,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/hipotermia-paciente.jpg'),
                 title: "A hipotermia ocorre normalmente em ambiente frio. A pessoa pode estar tremendo, estar pálida e fria ao toque. Pode também estar desorientada.",
                 descricao: "Muitas situações de hipotermia ocorrem quando o tempo está frio e o aquecimento em casa é insuficiente."
             },
         {
+            id: "2",
             img: "",
             title: "Ligue 192 0 quanto antes ou peça a alguém que o faça.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Aqueça a pessoa gradualmente, confortando-a sempre.",
             descricao: "Pode aquecer a pessoa embrulhando-a num cobertor, dando-lhe bebidas quentes e alimentos de alta energia (se estiver consciente)."
@@ -667,16 +710,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/inconsciente-paciente.jpg'),
                 title: "Observe a elevação do tórax, caso seja do sexo masculino, exponha o tórax para facilitar a visualização.",
                 descricao: "Quando uma pessoa está inconsciente os seus músculos relaxam e a sua língua pode bloquear a passagem do ar e fazer com que a pessoa deixe de respirar. Se inclinar a sua cabeça para trás, a via aérea abre-se porque a língua é puxada para a frente. Consegue-se perceber se a pessoa está ou não respirando, se olhar para o peito dela e verificar se ele se move, se sente as expirações."
             },
         {
+            id: "2",
             img: require('../../assets/infos/inconsciente-ajuda.jpg'),
                 title: "Coloque a pessoa de lado e incline a cabeça para trás.",
                 descricao: "A posição lateral com a cabeça inclinada para trás ajuda a manter a via aérea aberta, uma vez que a língua cai para a frente e, caso exista sangue ou vômito, são facilmente expelidos pela boca."
             },
         {
+            id: "3",
             img: "",
             title: "Ligue 192 0 quanto antes ou peça a alguém que o faça.",
             descricao: ""
@@ -725,26 +771,31 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/inconsciente-paciente.jpg'),
                 title: "Verifique a respiração, inclinando a cabeça da pessoa para trás e procure ver, ouvir e sentir a sua respiração.",
                 descricao: "Quando uma pessoa está inconsciente, os seus músculos relaxam e a sua língua pode bloquear a passagem do ar e fazer com que a pessoa deixe de poder respirar. Se inclinar a sua cabeça para trás, a via aérea abre-se porque a língua é puxada para a frente. Consegue perceber se a pessoa está ou não a respirar se olhar para o peito dela e verificar se ele se move e sentindo e ouvindo se existem expirações."
             },
         {
+            id: "2",
             img: "",
             title: "Ligue 192 0 quanto antes ou peça a alguém que o faça. Se sentir que a pessoa respira, vá para o tema Inconsciente e Respira na seção Primeiros Socorros Relacionados.",
             descricao: ""
         },
         {
+            id: "3",
             img: require('../../assets/infos/inconsciente-compressão.jpg'),
                 title: "Se não sentir a respiração da pessoa, inicie as compressões torácicas.",
                 descricao: " Coloque a base de uma mão no centro do peito e a base da outra por cima da primeira mão, entrelaçando os dedos, mantendo os dedos da mão que está em contato com o peito da vítima estendidos."
             },
         {
+            id: "4",
             img: "",
             title: "Empurre firmemente para baixo no meio do peito e depois alivie bem, mas sem perder o contato com o peito da vítima. Quando empurrar, faço-o com força e com um movimento rápido.",
             descricao: "Estes movimentos se chamam compressões torácicas. Mantêm o fluxo sanguíneo pelo corpo e ajudam a manter os órgãos vitais funcionando, incluindo o cérebro, podendo desalojar uma possível obstrução da via aérea."
         },
         {
+            id: "5",
             img: "",
             title: "Mantenha a frequência de, pelo menos, 100 compressões por minuto (no máximo 120 compressões por minuto) até que a ajuda chegue.",
             descricao: "Deixe que o peito suba completamente antes de fazer nova compressão, mas não perca o contato das mãos com o peito da vítima."
@@ -823,21 +874,25 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/insolação-paciente-ajuda.jpg'),
                 title: "A pele da vítima pode estar quente ou avermelhada e pode também estar seca;",
                 descricao: " a vítima pode ter alterações na consciência, vômitos e uma temperatura corporal elevada."
             },
         {
+            id: "2",
             img: "",
             title: "Ligue 192 0 quanto antes ou peça a alguém que o faça.",
             descricao: "A insolação calor pode pôr a vida em risco."
         },
         {
+            id: "3",
             img: "",
             title: "Coloque a pessoa num local mais fresco. Retire ou desaperte roupa apertada e aplique panos ou toalhas úmidos na pele. Esfrie a pessoa com ventilador, abano ou leque. Se estiver consciente, dê-lhe pequenos goles de água. Assegure-se de que a pessoa bebe lentamente.",
             descricao: "Esteja atento a alterações no seu estado."
         },
         {
+            id: "4",
             img: "",
             title: "Se necessário, continue a borrifar a pessoa aplicando compressas molhadas num pano, nos punhos, tornozelos, virilhas, pescoço e axilas.",
             descricao: ""
@@ -866,16 +921,19 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/lesoes-na-cabeca-paciente.jpeg'),
                 title: "Coloque a pessoa numa posição confortável e aplique uma compressa fria na lesão (por exemplo saco com cubos de gelo ou vegetais congelados, embrulhado numa toalha).",
                 descricao: ""
             },
         {
+            id: "2",
             img: require('../../assets/infos/gelo.jpg'),
                 title: "A aplicação de uma compressa fria na lesão reduz o inchaço e a dor.",
                 descricao: " Além do inchaço, quando uma pessoa sofre uma pancada na cabeça, o cérebro pode deslizar dentro do crânio. Isto pode causar uma lesão ainda mais grave (concussão), e dar origem a enjoos, sonolência e confusão."
             },
         {
+            id: "3",
             img: "",
             title: "Se a pessoa estiver confusa, sonolenta, se vomitar ou se a queda tiver sido 2 vezes maior que a sua altura, observe, também, se suas pupilas estão desiguais, se possui sangramento pelo nariz ou pela orelha (sangue misturado com liquor) ou, ainda, se possui hematoma nos olhos ou atrás das orelhas. ligue 192 ou peça a alguém que o faça, mantendo a cabeça da vítima mais elevada que o corpo até a chegada do socorro especializado.",
             descricao: "Pode ser sinal de que a pessoa tem um traumatismo craniano."
@@ -924,21 +982,25 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/meningite-paciente.webp'),
                 title: "A pessoa se queixa de rigidez no pescoço. Também pode ter sintomas parecidos com os da gripe, dores nos músculos e articulações, dor decabeça, temperatura elevada e sensibilidade à luz.",
                 descricao: ""
             },
         {
+            id: "2",
             img: "",
             title: "Outros sintomas: mãos e pés frios, dores nas articulações, sonolência e vômitos. Uma pessoa com meningite pode ter um ou mais sintomas e algunssintomas podem ocorrer mais tarde, à medida que a infecção se desenvolve.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Quando observar estes sintomas, ligue 192. ",
             descricao: "Uma pessoa com meningite pode piorar muito rapidamente. É uma doença muito grave e que precisa de atenção imediata."
         },
         {
+            id: "4",
             img: "",
             title: "Tranquilize sempre a pessoa, enquanto esperam pela ambulância.",
             descricao: "Se a pessoa tiver febre, aplique compressas úmidas na testa e na nuca."
@@ -967,16 +1029,19 @@ const infos = [{
     img: require('../../assets/infos/engasgo-paciente.jpg'),
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/engasgo-ajuda-crianca.jpg'),
                 title: "Deve-se dar tapas nas costas da vítima 5 vezes, entre as escápulas, nas costas, inclinando a vítima sobre as coxas, para deslocar o objeto estranho. Isso quando for criança pequena (até 1 ano).",
                 descricao: "Isto faz com que haja uma forte vibração e pressão nas vias respiratórias, normalmente suficiente para desobstruir. A expulsão do objeto estranho permite à vítima conseguir respirar novamente."
             },
         {
+            id: "2",
             img: require('../../assets/infos/engasgo-ajuda-adulto.jpg'),
                 title: "Quando a vítima for maior ou até mesmo um adulto, faça compressão na região subdiafragmática ('boca do estômago'), utilizando a posição por detrás da vítima e com as duas mãos formando um punho e com o polegar de uma delas em cunha, fazendo um movimento único com formato de 'J' para dentro e para cima.",
                 descricao: "Manobra conhecida como 'Manobra de Heimlich'."
             },
         {
+            id: "3",
             img: "",
             title: "Ligue sempre 192 ou peça a alguém que o faça, quando alguém estiver se engasgando.",
             descricao: ""
@@ -1005,26 +1070,31 @@ const infos = [{
     img: require('../../assets/infos/perfuração.jpeg'),
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Proteja-se e observe se o local está seguro.",
             descricao: ""
         },
         {
+            id: "2",
             img: "",
             title: "Coloque a vítima em uma posição confortável. Esteja atento à perda de sangue.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Se for necessário, principalmente se a perfuração for nas extremidades, siga as indicações para 'Hemorragia' ou 'Fratura'.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Caso a perfuração seja na região do tórax, faça o curativo de três pontas.",
             descricao: ""
         },
         {
+            id: "5",
             img: "",
             title: "Ligue 192, identifique-se, responda as perguntas e siga as instruções ou encaminhe de maneira adequada, a vítima o mais rápido possível para o hospital mais próximo.",
             descricao: ""
@@ -1038,31 +1108,37 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/picada.webp'),
                 title: "As cobras, os escorpiões e as aranhas possuem um soro para cada espécie de animal.",
                 descricao: "É necessário levar o animal, reconhecer o animal ou identificá-lo de qualquer outra forma."
             },
         {
+            id: "2",
             img: "",
             title: "A vítima deverá ser encaminhada ao socorro especializado o quanto antes.",
             descricao: "Verifique hospitais de referência para picadas de animais peçonhentos na sua região."
         },
         {
+            id: "3",
             img: "",
             title: "Não permita que a vítima se movimente.",
             descricao: "Mantenha-a em repouso."
         },
         {
+            id: "4",
             img: "",
             title: "Caso o animal não seja venenoso, lave apenas com água e sabão e faça um curativo.",
             descricao: ""
         },
         {
+            id: "5",
             img: "",
             title: "Não faça torniquete, não perfure ao redor da região picada e nem tente sugar o veneno.",
             descricao: "No caso dos insetos, pode-se utilizar álcool para desinfetar, tirar a dor e neutralizar o veneno, lembrando que não serão fatais, a não ser que a vítima seja alérgica, pois nesse caso poderia agravar o estado clínico geral."
         },
         {
+            id: "6",
             img: "",
             title: "As águas vivas podem ser tratadas com amônia.",
             descricao: "Não urine na lesão, caso não tenha amônia utilize sobre a lesão água do mar ou vinagre."
@@ -1076,21 +1152,25 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/picadas-insetos.jpeg'),
                 title: "Qualquer pessoa que tenha sido mordida ou picada tem dores.",
                 descricao: "Procure uma marca de uma mordedura ou ferrão e alguma parte inchada e/ ou com hemorragia."
             },
         {
+            id: "2",
             img: "",
             title: "Remova o ferrão raspando-o para fora com algo plano, tipo um cartão de crédito",
             descricao: "Ou então retire-o cuidadosamente com uma pinça, assegurando-se de segurar o ferrão pela base para evitar arrebentar o reservatório do veneno"
         },
         {
+            id: "3",
             img: "",
             title: "Lave a ferida com água e sabão, cubra-a com uma gaze e depois aplique gelo.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Ligue 192 se acha que a vítima está tendo uma reação alérgica ou choque anafilático.Os sinais são uma erupção cutânea, urticária, inchaço nas mãos, pés ou face ou um abrandamento da respiração.",
             descricao: ""
@@ -1119,16 +1199,19 @@ const infos = [{
     img: require('../../assets/infos/fogo.jpg'),
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Coloque a queimadura térmica debaixo de água corrente para esfriar durante pelo menos 10 minutos.",
             descricao: "Esfriar a queimadura reduz a dor e o inchaço. Quanto mais rápido e prolongado for o resfriamento, menor o impacto da lesão."
         },
         {
+            id: "2",
             img: "",
             title: "Se a queimadura necessitar de cuidados médicos, após o resfriamento, seque-a, retire as vestes que não estejam aderidas à pele e cubra a lesão e encaminhe o quanto antes ao serviço especializado.",
             descricao: "Este procedimento ajuda a prevenir infecções, mantendo a área limpa. É a cobertura ideal porque não se cola à queimadura e porque reduz a dor ao proteger a superfície da pele do ar."
         },
         {
+            id: "3",
             img: "",
             title: "Se necessário, ligue 192 ou peça a alguém que o faça.",
             descricao: "Ligue sempre 192 se a vítima for uma criança, se a queimadura empolar, se afetar mais do que uma zona do corpo, se cobrir as mãos, pés, face, períneo, ou se os tecidos subjacentes estiverem visíveis ou, ainda, se for uma vítima idosa ou com doenças preexistentes, tais como hipertensão, diabetes, asma, entre outras."
@@ -1167,31 +1250,37 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Os Primeiros Socorros Psicológicos são um conjunto de ações que podem oferecer apoio e conforto imediato às pessoas afetadas por um evento crítico ou grave. As pessoas podem estar visivelmente estressadas, afetadas por emoções intensas, podem estar apáticas ou ter perdido a esperança. Os Primeiros Socorros Psicológicos proporcionam apoio humano básico, dando informação prática e evidenciando empatia, preocupação, respeito e confiança nas capacidades do indivíduo.",
             descricao: ""
         },
         {
+            id: "2",
             img: "",
             title: "Quatro elementos básicos dos Primeiros Socorros Psicológicos",
             descricao: ""
         },
         {
+            id: "3",
             img: require('../../assets/infos/psicologico-ajuda.jpg'),
                 title: "Mantenha-se por perto",
                 descricao: "Pode ajudar um indivíduo a recuperar a confiança e sentido de segurança estando perto e mostrando cuidado e empatia. Esteja preparado se a pessoa parecer ansiosa, evidenciar emoções extremas, grite ou rejeite ajuda."
             },
         {
+            id: "4",
             img: "",
             title: "Escute ativamente",
             descricao: "Dedique tempo a ouvir atentamente quando ajudar alguém a superar um tempo difícil. Escute ativamente colocando questões clarificadoras, sem aprofundar muito o que se passou."
         },
         {
+            id: "5",
             img: "",
             title: "Aceite os sentimentos",
             descricao: "As pessoas em crise podem evidenciar emoções muito diferentes. Aceite a interpretação da outra pessoa sobre o evento e reconheça os seus sentimentos."
         },
         {
+            id: "6",
             img: "",
             title: "Preste cuidado geral e ajuda prática",
             descricao: "A assistência prática, como oferecer um copo de água, pode ser uma grande ajuda. Evite tomar mais responsabilidade pela situação do que aquela que a pessoa na realidade precisa."
@@ -1205,26 +1294,31 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/animais-mordida.jpg'),
                 title: "Não tente parar, apanhar ou segurar o animal que mordeu uma pessoa.",
                 descricao: "Ligue 192 se a ferida resultante da mordida do animal estiver sangrando muito ou se o animal puder transmitir raiva."
             },
         {
+            id: "2",
             img: "",
             title: "Se não tem a certeza se o animal tem ou não raiva, ligue 192. Se não for tratada, a raiva pode ser fatal.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Se a hemorragia for grave: controle primeiro a hemorragia; não tente limpar a ferida. A ferida será limpa numa unidade de saúde.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Se a hemorragia for pequena: lave a ferida com água.",
             descricao: ""
         },
         {
+            id: "5",
             img: "",
             title: "Depois controle a hemorragia e aplique uma pomada anti-séptica e uma atadura.",
             descricao: ""
@@ -1253,21 +1347,25 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/picada.webp'),
                 title: "Uma pessoa que tenha sido mordida terá dores.",
                 descricao: "Procure pela marca dos dentes e inchaço."
             },
         {
+            id: "2",
             img: "",
             title: "Ligue 192 imediatamente se uma pessoa for mordida por uma cobra ou leve ao hospital de referência no tratamento acidentes com animais peçonhentos.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Lave a ferida com cuidado.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Mantenha a parte mordida quieta e mais abaixo do coração. Mantenha a pessoa calma e não permita que ela ande, a não ser que seja absolutamente necessário.",
             descricao: ""
@@ -1296,21 +1394,25 @@ const infos = [{
     img: require('../../assets/infos/agua-viva.webp'),
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/agua-viva-paciente.jpg'),
                 title: "Uma pessoa que tenha sido picada por uma Água viva deve sair da água o mais depressa possível.",
                 descricao: ""
             },
         {
+            id: "2",
             img: "",
             title: "Coloque vinagre",
             descricao: "Se não tiver vinagre, tente usar uma pasta de bicarbonato de sódio. Não toque na zona afetada com as mãos desprotegidas."
         },
         {
+            id: "3",
             img: "",
             title: "Quando o ardor parar, trate a dor com uma imersão em água quente.",
             descricao: "Se possível, faça com que a pessoa tome uma ducha de água quente durante 20 minutos."
         },
         {
+            id: "4",
             img: "",
             title: "Ligue 192 se a pessoa começar a ter dificuldade em respirar, se tiver um histórico de reações alérgicas graves a picadas de espécies marinhas ou se a picada for no rosto ou pescoço.",
             descricao: ""
@@ -1339,26 +1441,31 @@ const infos = [{
     img: require('../../assets/infos/escorpiao.jpeg'),
     dicas: [
         {
+            id: "1",
             img: "",
             title: "Ligue 192 se suspeitar que a pessoa foi mordida por uma aranha 'viúva negra' ou 'aranha-marrom', picada por um escorpião ou se tiver uma reação alérgica grave. As mordidas destas aranhas e as picadas de alguns escorpiões podem pôr a vida humana em risco, especialmente a das crianças e idosos.",
             descricao: ""
         },
         {
+            id: "2",
             img: "",
             title: "Lave a ferida cuidadosamente.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Aplique uma pomada anti-séptica e uma atadura.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Ponha gelo na parte afetada para reduzir a dor e o inchaço.",
             descricao: ""
         },
         {
+            id: "5",
             img: "",
             title: "Aconselhe a pessoa a procurar assistência médica, se não, ligar 192.",
             descricao: "Se transportar a pessoa para uma unidade de saúde, mantenha a zona afetada quieta e elevada."
@@ -1397,21 +1504,25 @@ const infos = [{
     img: "",
     dicas: [
         {
+            id: "1",
             img: require('../../assets/infos/carrapato.jpg'),
                 title: "Apanhe o carrapato com uma pinça com as pontas finas, pontiagudas e sem lima, coloque-a junto à pele e puxe devagar.",
                 descricao: "Não se esqueça de usar luvas descartáveis."
             },
         {
+            id: "2",
             img: "",
             title: "NÃO tente queimar o carrapato para retirá-lo ou aplicar um gel à base de petróleo ou verniz para as unhas.",
             descricao: ""
         },
         {
+            id: "3",
             img: "",
             title: "Lave a área picada com água e sabão.",
             descricao: ""
         },
         {
+            id: "4",
             img: "",
             title: "Aplique um anti-séptico.",
             descricao: "Verifique primeiro se a pessoa não tem alergia ou alguma sensibilidade ao anti-séptico."
