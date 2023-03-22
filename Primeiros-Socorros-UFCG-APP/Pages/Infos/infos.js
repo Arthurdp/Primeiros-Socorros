@@ -404,6 +404,7 @@ const infos = [{
             descricao: "Os sintomas incluem sede, boca seca, urina escura, tontura e fadiga."
         },
         {
+            id: "2",
             img: require('../../assets/infos/desidratacao.jpg'),
             title: "O tratamento envolve a ingestão de líquidos.",
             descricao: "É necessário a procura de atendimento médico se os sintomas persistirem."
@@ -958,6 +959,7 @@ const infos = [{
     ],
     FAQs: [
         {
+            id: "2",
             img: "",
             title: "O que informar ao ligar para um Centro de Intoxicações?",
             descricao: "Com qual substância o paciente teve contato. Ter o rótulo ou bula do produto em mãos facilita o atendimento e evita informações erradas."

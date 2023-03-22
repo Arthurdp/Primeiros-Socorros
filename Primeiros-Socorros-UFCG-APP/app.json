@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Primeiros Socorros UFCG",
-    "slug": "primeiros-socorros-ufcg",
+    "name": "Primeiros-Socorros-UFCG-APP",
+    "slug": "Primeiros-Socorros-UFCG-APP",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,9 +10,6 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,17 +20,16 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ff0040"
+        "backgroundColor": "#ffffff"
       },
-      "package": "com.ufcg.primeiros_socorros",
-      "versionCode": 1
+      "package": "com.zpendragon.PrimeirosSocorrosUFCGAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "32c033ec-349d-4185-9734-6b3438cb3d7e"
+        "projectId": "1b5d71a4-7a67-4173-86a2-7dc05a89aad3"
       }
     }
   }
