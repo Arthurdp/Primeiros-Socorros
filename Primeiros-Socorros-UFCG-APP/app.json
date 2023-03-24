@@ -4,10 +4,10 @@
     "slug": "Primeiros-Socorros-UFCG-APP",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cruz.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cruz.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,10 +19,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/cruz.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.zpendragon.PrimeirosSocorrosUFCGAPP"
+      "package": "com.PrimeirosSocorrosUFCGAPP.PrimeirosSocorrosUFCGAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
