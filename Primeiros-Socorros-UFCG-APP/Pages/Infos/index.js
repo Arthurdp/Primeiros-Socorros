@@ -1,4 +1,5 @@
 import { Text, View, Image, ScrollView, Button, Linking, TouchableOpacity } from 'react-native';
+import React, {useState} from 'react';
 import styles from './style';
 import infos from './infos'
 import { useRoute } from '@react-navigation/native';
@@ -8,6 +9,8 @@ export default function Infos({ }) {
   var atualEmergency = ''
   var atualDicas = ''
   var atualFAQs = ''
+
+  const [showFAQs, setshowFAQs] = useState(false);
 
   const route = useRoute()
 
@@ -21,6 +24,10 @@ export default function Infos({ }) {
     }
   });
 
+  function changeShowFAQs() {
+    console.log(this.showFAQs)
+    this.showFAQs = !this.showFAQs
+  }
 
   function phoneCall() {
     Linking.openURL(`tel:${'192'}`)
@@ -40,9 +47,9 @@ export default function Infos({ }) {
           {
           }
           {atualDicas.map(dica => <View key={dica["title"]}>
-          <View style={styles.titleBar}>
-          <View style={styles.numberView}><Text style={styles.number}>{dica["id"]}</Text></View>
-          <Text style={styles.dicaTitle}>{dica["title"]}</Text></View>
+            <View style={styles.titleBar}>
+              <View style={styles.numberView}><Text style={styles.number}>{dica["id"]}</Text></View>
+              <Text style={styles.dicaTitle}>{dica["title"]}</Text></View>
             {(dica["img"] != "") &&
               <Image style={styles.img} source={dica["img"]} />
             }
@@ -52,16 +59,11 @@ export default function Infos({ }) {
           </View>)}
         </View>
 
-        {/* <Panel title="Perguntas e Respostas" desc={}></Panel> */}
+        <Text style={styles.faq}>Perguntas e Respostas</Text>
 
-        <TouchableOpacity style={styles.toutchFAQ} >
-          <Text style={styles.faq}>Perguntas e Respostas</Text>
-          {/* <Image style={styles.arrow} source={require('../../assets/arrow-down.png')}></Image> */}
-        </TouchableOpacity >
-        {/* <Collapsible collapsed={collapse} duration={300} > */}
-        <View style={styles.view}>
-          {
-          }
+        {showFAQs &&
+          <View style={styles.view}>
+
           {atualFAQs.map(FAQ => <View key={FAQ["title"]}>
             <Text style={styles.FAQTitle}>{FAQ["title"]}</Text>
             {(FAQ["img"] != "") &&
@@ -70,9 +72,13 @@ export default function Infos({ }) {
             {(FAQ["descricao"] != "") &&
               <Text style={styles.FAQDesc}>{FAQ["descricao"]}</Text>
             }
-          </View>)}
+          </View>
+          )}
         </View>
-        {/* </Collapsible> */}
+        }
+        <TouchableOpacity style={styles.toutchFAQ} onPress={ ()=> setshowFAQs(!showFAQs)}>
+            <Text style={styles.showFAQs}>{showFAQs ? "Esconder FAQs" : "Mostrar FAQs"}</Text>
+        </TouchableOpacity>
 
       </ScrollView>
       <View>

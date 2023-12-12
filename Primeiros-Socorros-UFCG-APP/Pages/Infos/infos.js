@@ -15,6 +15,7 @@ const infos = [{
             descricao: "Se a pessoa estiver com uma reação alérgica (problemas respiratórios, choque ou alterações da consciência) e tiver uma injeção/caneta de epinefrina, ajude-a a utilizá-la."
         },
         {
+            id: "3",
             img: "",
             title: "Tranquilize a pessoa, enquanto esperam pela ambulância.",
             descricao: "Se começar a agravar seu quadro, leve-a ao pronto socorro o mais rápido possível."

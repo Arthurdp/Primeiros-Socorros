@@ -31,6 +31,11 @@ const styles = StyleSheet.create({
       justifyContent:"center",
       alignContent:"center"
     },
+    showFAQs:{
+      fontSize:12,
+      marginLeft:20,
+      color:"#777"
+    },
     faq:{
       justifyContent:"center",
       fontSize:18,
