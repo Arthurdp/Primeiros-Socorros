@@ -9,6 +9,6 @@ Nele estão disponíveis informações em texto e imagens sobre como realizar um
 
 <img src="Primeiros-Socorros-UFCG-APP/assets/prints/home.png">
 <img src="Primeiros-Socorros-UFCG-APP/assets/prints/socorro-geral.png">
-<img src="Primeiros-Socorros-UFCG-APP/assets/prints/lista-socorro.png">
+<img src="Primeiros-Socorros-UFCG-APP/assets/prints/lista-socorros.png">
 <img src="Primeiros-Socorros-UFCG-APP/assets/prints/exemplo-socorro.png">
 <img src="Primeiros-Socorros-UFCG-APP/assets/prints/FAQ.png">
